@@ -1,4 +1,4 @@
-# @kermanx/iconify-minecraft
+# iconify-minecraft
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -21,7 +21,7 @@ export default defineConfig({
   presets: [
     presetIcons({
       collections: {
-        mc: () => import('@kermanx/iconify-minecraft/icons.json').then(i => i.default),
+        mc: () => import('iconify-minecraft/icons.json').then(i => i.default),
       },
     }),
     // ...
@@ -35,9 +35,9 @@ export default defineConfig({
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/@kermanx/iconify-minecraft?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/@kermanx/iconify-minecraft
-[npm-downloads-src]: https://img.shields.io/npm/dm/@kermanx/iconify-minecraft?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/@kermanx/iconify-minecraft
+[npm-version-src]: https://img.shields.io/npm/v/iconify-minecraft?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/iconify-minecraft
+[npm-downloads-src]: https://img.shields.io/npm/dm/iconify-minecraft?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/iconify-minecraft
 [license-src]: https://img.shields.io/github/license/KermanX/iconify-minecraft.svg?style=flat&colorA=080f12&colorB=1fa669
 [license-href]: https://github.com/KermanX/iconify-minecraft/blob/main/LICENSE

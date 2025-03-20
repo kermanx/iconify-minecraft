@@ -5,7 +5,7 @@ export default defineConfig({
     presetUno(),
     presetIcons({
       collections: {
-        mc: () => import('@kermanx/iconify-minecraft/icons.json').then(i => i.default),
+        mc: () => import('iconify-minecraft/icons.json').then(i => i.default),
       },
     }),
     presetAttributify(),

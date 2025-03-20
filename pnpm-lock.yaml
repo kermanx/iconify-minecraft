@@ -66,7 +66,7 @@ importers:
         specifier: ^3.4.21
         version: 3.4.27(typescript@5.4.5)
     devDependencies:
-      '@kermanx/iconify-minecraft':
+      'iconify-minecraft':
         specifier: link:..\dist
         version: link:../dist
       '@vitejs/plugin-vue':

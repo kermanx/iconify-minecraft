@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { icons } from '@kermanx/iconify-minecraft'
+import { icons } from 'iconify-minecraft'
 import { useBreakpoints, breakpointsTailwind, useVirtualList, useWindowSize, useClipboard } from '@vueuse/core'
 import { computed, ref } from 'vue'
 import Fuse from 'fuse.js'

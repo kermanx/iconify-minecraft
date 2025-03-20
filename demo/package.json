@@ -15,8 +15,8 @@
     "vue": "^3.4.21"
   },
   "devDependencies": {
-    "@kermanx/iconify-minecraft": "link:..\\dist",
     "@vitejs/plugin-vue": "^5.0.4",
+    "iconify-minecraft": "link:..\\dist",
     "typescript": "^5.2.2",
     "unocss": "^0.60.3",
     "vite": "^5.2.0",
